@@ -26,7 +26,7 @@ public class DemoController {
 	@GetMapping("/test")
 	public String testMethod1() {
 		
-		
+		System.out.println("hello ");
 		return "hello";
 	}
 	
